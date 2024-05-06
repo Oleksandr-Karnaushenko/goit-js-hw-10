@@ -22,7 +22,7 @@ const options = {
       btn.disabled = false;
     } else {
       btn.disabled = true;
-      iziToast.show({
+      iziToast.error({
         title: 'Attention',
         message: 'Please choose a date in the future',
         position: 'topCenter',
